@@ -7,8 +7,8 @@
     <ProjectGuid>{EAD5F7D3-7EF7-4DD8-94E1-D27A4F545DA3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ASCII_Artwork</RootNamespace>
-    <AssemblyName>ASCII Artwork</AssemblyName>
+    <RootNamespace>ASCIIArtwork</RootNamespace>
+    <AssemblyName>ASCIIArtwork</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ConsolePainter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
